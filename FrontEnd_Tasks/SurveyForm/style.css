@@ -6,13 +6,17 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: black;
 }
 
 form {
     max-width: 400px;
     margin: 20px auto;
     border: 1px solid black;
-    padding: 50px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgba(31, 28, 28, 0.605);
+    color: white;
 }
 
 label {
@@ -50,10 +54,13 @@ button {
     background-color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     z-index: 2;
+    border: 1px solid black;
+
 }
 
 #genderOptions
 {
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center
 }
